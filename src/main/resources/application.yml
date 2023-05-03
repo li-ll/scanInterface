@@ -1,0 +1,7 @@
+# 端口
+server:
+  port: 8080
+# 不连接数据库
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
